@@ -8,7 +8,7 @@ import ViaDelWeb from '../../images/Via-Del-Web_MAIN-LOGO-horizontal.png';
 import SocialDesktop from './socialDesktop';
 import SocialMobile from './socialMobile';
 
-import { FaMapMarkerAlt } from 'react-icons/fa';
+import { FaMapMarkerAlt, FaMap } from 'react-icons/fa';
 
 
 const S2SocialBio = () => (

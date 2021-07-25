@@ -16,7 +16,7 @@ const SocialDesktop = () => (
           target="_blank"
           rel="noopener noreferrer"
         >
-          Connect With Me
+          Contact for Bookings
         </a>
       </div>
     </div>

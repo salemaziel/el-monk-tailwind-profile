@@ -19,7 +19,7 @@ const NotFoundPage = () => (
           </Link>
         </div>
         <div className="w-full px-2 lg:w-1/2">
-          <img src="https://bootstrapshuffle.com/placeholders-2-0/pictures/error.svg" alt />
+          <img src="https://bootstrapshuffle.com/placeholders-2-0/pictures/error.svg" alt=""/>
         </div>
       </div>
     </section>

@@ -1,17 +1,20 @@
 import React from 'react';
 
-import Monk from '../../images/monk.jpeg';
+import Monk from "../../images/monk.jpeg"
+import Pow from "../../images/el-monk-pow-ep.jpeg"
 
-import { FaSpotify, FaSoundcloud } from 'react-icons/fa';
+import Flip from "react-reveal"
 
-import Fade from "react-reveal"
+import {
+  FaSpotify, FaSoundcloud,
+} from "react-icons/fa"
 
-const S3Body = () => (
+const S4Body = () => (
   <>
-    <div className="py-2 mt-2 text-center border-t border-gray-300 sm:mt-10 sm:py-10">
+    <div className="py-4 mt-4 text-center border-t sm:mt-10 sm:py-10">
       {/*<div className="flex flex-wrap justify-center">*/}
-      <div className="justify-center w-full px-4">
-        {/*} <p className="mb-4 text-lg leading-relaxed text-gray-800">
+        <div className="justify-center w-full px-4`">
+         {/*} <p className="mb-4 text-lg leading-relaxed text-gray-800">
             I am a web developer, digital consultant, and small business owner currently living in
             San Diego, CA.
             <br />
@@ -19,7 +22,7 @@ const S3Body = () => (
             My interests range from web development to hiking. I am also interested in running,
             politics, and technology.
 </p> */}
-        {/*<a
+          {/*<a
                         href="#pablo"
                         className="font-normal text-pink-500"
                         onClick={e => e.preventDefault()}
@@ -27,9 +30,9 @@ const S3Body = () => (
                         Show more
                       </a>*/}
 
-        <div>
-          {/* Section 1 */}
-          {/*<section className="pt-16 pb-20 sm:pt-24 sm:pb-32 bg-gray-50">
+<div>
+  {/* Section 1 */}
+  {/*<section className="pt-16 pb-20 sm:pt-24 sm:pb-32 bg-gray-50">
     <div className="items-center max-w-6xl px-12 mx-auto sm:px-20 md:px-5">
       <div className="flex flex-wrap items-center -mx-3">
         <div className="order-1 w-full px-3 lg:w-1/2 lg:order-0">
@@ -85,8 +88,8 @@ const S3Body = () => (
       </div>
     </div>
                     </section>*/}
-          {/* Section 2 */}
-          {/*} <section className="bg-white">
+  {/* Section 2 */}
+ {/*} <section className="bg-white">
     <div className="px-8 py-10 mx-auto lg:max-w-screen-xl sm:max-w-xl md:max-w-full sm:px-12 md:px-16 lg:py-20 sm:py-16">
       <div className="grid gap-x-8 gap-y-12 sm:gap-y-16 md:grid-cols-2 lg:grid-cols-3">
         <div className="relative">
@@ -171,173 +174,80 @@ const S3Body = () => (
     </div>
                   </section>*/}
 
-          {/* Section 1 */}
-          <section className="py-5 pb-20 bg-white">
-            <div className="relative max-w-6xl px-2 mx-auto md:px-6 lg:px-10">
-              
-              <div className="grid grid-cols-1 gap-10 mt-10 md:grid-cols-2 xl:grid-cols-2">
-              <Fade top cascade>
-                {/* Member 1 */}
 
-                <div className="relative rounded-lg p-0.5 overflow-hidden bg-transparent shadow-sm hover:border-gray-400 focus-within:ring-2 focus-within:ring-offset-2 focus-within:ring-indigo-500">
-                  <div className="relative z-10 flex items-center w-full h-full px-6 py-5 bg-black rounded-lg">
-                    <div className="flex-shrink-0 mr-4">
-                      <img className="w-16 h-16 rounded-full" src={Monk} alt=""/>
-                    </div>
-                    <div className="flex-1 min-w-0">
-                      <a href="#_" className="focus:outline-none">
-                        <p className="text-lg font-medium text-gray-100">Link</p>
-                        <p className="text-sm text-gray-400 truncate">url</p>
-                      </a>
-                    </div>
-                    <div className="flex-1 flex-grow-0 pr-2 text-gray-200">
-                      <div className="relative flex items-center justify-end space-x-3">
-                        <a href="#_" className="text-gray-300 hover:text-gray-200">
-                          <FaSpotify className="w-5 h-5 fill-current" />
-                        </a>
-                        <a href="#_" className="text-gray-300 hover:text-gray-200">
-                          <FaSoundcloud className="w-5 h-5 fill-current" />
-                        </a>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-br from-yellow-400 via-purple-400 to-pink-500" />
-                </div>
-                {/* Member 2 */}
-                <div className="relative rounded-lg p-0.5 overflow-hidden bg-transparent shadow-sm hover:border-gray-400 focus-within:ring-2 focus-within:ring-offset-2 focus-within:ring-indigo-500">
-                  <div className="relative z-10 flex items-center w-full h-full px-6 py-5 bg-black rounded-lg">
-                    <div className="flex-shrink-0 mr-4">
-                      <img className="w-16 h-16 rounded-full" src={Monk} alt=""/>
-                    </div>
-                    <div className="flex-1 min-w-0">
-                      <a href="#_" className="focus:outline-none">
-                        <p className="text-lg font-medium text-gray-100">Link</p>
-                        <p className="text-sm text-gray-400 truncate">url</p>
-                      </a>
-                    </div>
-                    <div className="flex-1 flex-grow-0 pr-2 text-gray-200">
-                      <div className="relative flex items-center justify-end space-x-3">
-                        <a href="#_" className="text-gray-300 hover:text-gray-200">
-                          <FaSpotify className="w-5 h-5 fill-current" />
-                        </a>
-                        <a href="#_" className="text-gray-300 hover:text-gray-200">
-                          <FaSoundcloud className="w-5 h-5 fill-current" />
-                        </a>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-br from-purple-400 via-pink-500 to-yellow-400" />
-                </div>
-                {/* Member 3 */}
-                <div className="relative rounded-lg p-0.5 overflow-hidden bg-transparent shadow-sm hover:border-gray-400 focus-within:ring-2 focus-within:ring-offset-2 focus-within:ring-indigo-500">
-                  <div className="relative z-10 flex items-center w-full h-full px-6 py-5 bg-black rounded-lg">
-                    <div className="flex-shrink-0 mr-4">
-                      <img className="w-16 h-16 rounded-full" src={Monk} alt=""/>
-                    </div>
-                    <div className="flex-1 min-w-0">
-                      <a href="#_" className="focus:outline-none">
-                        <p className="text-lg font-medium text-gray-100">Link</p>
-                        <p className="text-sm text-gray-400 truncate">url</p>
-                      </a>
-                    </div>
-                    <div className="flex-1 flex-grow-0 pr-2 text-gray-200">
-                      <div className="relative flex items-center justify-end space-x-3">
-                        <a href="#_" className="text-gray-300 hover:text-gray-200">
-                          <FaSpotify className="w-5 h-5 fill-current" />
-                        </a>
-                        <a href="#_" className="text-gray-300 hover:text-gray-200">
-                          <FaSoundcloud className="w-5 h-5 fill-current" />
-                        </a>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-br from-pink-500 via-purple-500 to-yellow-400" />
-                </div>
-                {/* Member 4 */}
-                <div className="relative rounded-lg p-0.5 overflow-hidden bg-transparent shadow-sm hover:border-gray-400 focus-within:ring-2 focus-within:ring-offset-2 focus-within:ring-indigo-500">
-                  <div className="relative z-10 flex items-center w-full h-full px-6 py-5 bg-black rounded-lg">
-                    <div className="flex-shrink-0 mr-4">
-                      <img className="w-16 h-16 rounded-full" src={Monk} alt=""/>
-                    </div>
-                    <div className="flex-1 min-w-0">
-                      <a href="#_" className="focus:outline-none">
-                        <p className="text-lg font-medium text-gray-100">Link</p>
-                        <p className="text-sm text-gray-400 truncate">url</p>
-                      </a>
-                    </div>
-                    <div className="flex-1 flex-grow-0 pr-2 text-gray-200">
-                      <div className="relative flex items-center justify-end space-x-3">
-                        <a href="#_" className="text-gray-300 hover:text-gray-200">
-                          <FaSpotify className="w-5 h-5 fill-current" />
-                        </a>
-                        <a href="#_" className="text-gray-300 hover:text-gray-200">
-                          <FaSoundcloud className="w-5 h-5 fill-current" />
-                        </a>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-br from-yellow-400 via-purple-400 to-pink-500" />
-                </div>
-                {/* Member 5 */}
-                <div className="relative rounded-lg p-0.5 overflow-hidden bg-transparent shadow-sm hover:border-gray-400 focus-within:ring-2 focus-within:ring-offset-2 focus-within:ring-indigo-500">
-                  <div className="relative z-10 flex items-center w-full h-full px-6 py-5 bg-black rounded-lg">
-                    <div className="flex-shrink-0 mr-4">
-                      <img className="w-16 h-16 rounded-full" src={Monk} alt=""/>
-                    </div>
-                    <div className="flex-1 min-w-0">
-                      <a href="#_" className="focus:outline-none">
-                        <p className="text-lg font-medium text-gray-100">Link</p>
-                        <p className="text-sm text-gray-400 truncate">url</p>
-                      </a>
-                    </div>
-                    <div className="flex-1 flex-grow-0 pr-2 text-gray-200">
-                      <div className="relative flex items-center justify-end space-x-3">
-                        <a href="#_" className="text-gray-300 hover:text-gray-200">
-                          <FaSpotify className="w-5 h-5 fill-current" />
-                        </a>
-                        <a href="#_" className="text-gray-300 hover:text-gray-200">
-                          <FaSoundcloud className="w-5 h-5 fill-current" />
-                        </a>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-br from-purple-400 via-pink-500 to-yellow-400" />
-                </div>
-                {/* Member 6 */}
-                <div className="relative rounded-lg p-0.5 overflow-hidden bg-transparent shadow-sm hover:border-gray-400 focus-within:ring-2 focus-within:ring-offset-2 focus-within:ring-indigo-500">
-                  <div className="relative z-10 flex items-center w-full h-full px-6 py-5 bg-black rounded-lg">
-                    <div className="flex-shrink-0 mr-4">
-                      <img className="w-16 h-16 rounded-full" src={Monk} alt=""/>
-                    </div>
-                    <div className="flex-1 min-w-0">
-                      <a href="#_" className="focus:outline-none">
-                        <p className="text-lg font-medium text-gray-100">Link</p>
-                        <p className="text-sm text-gray-400 truncate">url</p>
-                      </a>
-                    </div>
-                    <div className="flex-1 flex-grow-0 pr-2 text-gray-200">
-                      <div className="relative flex items-center justify-end space-x-3">
-                        <a href="#_" className="text-gray-300 hover:text-gray-200">
-                          <FaSpotify className="w-5 h-5 fill-current" />
-                        </a>
-                        <a href="#_" className="text-gray-300 hover:text-gray-200">
-                          <FaSoundcloud className="w-5 h-5 fill-current" />
-                        </a>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-br from-pink-500 via-purple-500 to-yellow-400" />
-                </div>
-                </Fade>
-              </div>
-              
-            </div>
-          </section>
+<section className="px-4 py-8">
+  <div className="flex flex-wrap -mx-4 -mb-8">
+    <Flip left cascade>
+    <div className="w-1/2 px-2 mb-8 md:w-1/4 md:px-4">
+      <img className="rounded shadow" src={Pow} alt=""/>
+    </div>
+    <div className="w-1/2 px-2 mb-8 md:w-1/4 md:px-4">
+      <img className="rounded shadow" src={Pow} alt=""/>
+    </div>
+    <div className="w-1/2 px-2 mb-8 md:w-1/4 md:px-4">
+      <img className="rounded shadow" src={Pow} alt=""/>
+    </div>
+    <div className="w-1/2 px-2 mb-8 md:w-1/4 md:px-4">
+      <img className="rounded shadow" src={Pow} alt=""/>
+    </div>
+    <div className="w-1/2 px-2 mb-8 md:w-1/4 md:px-4">
+      <img className="rounded shadow" src={Pow}  alt=""/>
+    </div>
+    <div className="w-1/2 px-2 mb-8 md:w-1/4 md:px-4">
+      <img className="rounded shadow" src={Pow} alt=""/>
+    </div>
+    <div className="w-1/2 px-2 mb-8 md:w-1/4 md:px-4">
+      <img className="rounded shadow" src={Pow}  alt=""/>
+    </div>
+    <div className="w-1/2 px-2 mb-8 md:w-1/4 md:px-4">
+      <img className="rounded shadow" src={Pow} alt=""/>
+    </div>
+    </Flip>
+  </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                  
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
         </div>
-      </div>
       {/*</div>*/}
     </div>
   </>
 );
 
-export default S3Body;
+export default S4Body;
