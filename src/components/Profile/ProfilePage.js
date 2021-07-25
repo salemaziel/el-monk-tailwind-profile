@@ -14,7 +14,7 @@ function Profile() {
       {/*<Navbar transparent />*/}
       <main className="profile-page bgBottom">
         <S1BGHero />
-        <section className="relative py-16 ">
+        <section className="static py-16 bg-black ">
           <div className="container px-4 mx-auto">
             <div className="relative flex flex-col w-full min-w-0 mb-6 -mt-64 break-words bg-white rounded-lg shadow-xl animate-fade-in-fwd">
               <div className="px-4 md:px-6">              

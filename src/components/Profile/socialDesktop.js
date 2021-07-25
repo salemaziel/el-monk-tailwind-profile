@@ -6,7 +6,7 @@ const SocialDesktop = () => (
     <div className="hidden w-full px-4 md:block lg:w-4/12 lg:order-3 lg:text-right lg:self-center">
       <div className="flex justify-center px-3 py-6 mt-32 sm:mt-0 md:block">
         <a
-          className="px-4 py-2 mb-1 text-xs font-bold text-white uppercase bg-blue-700 rounded shadow outline-none active:bg-pink-600 hover:shadow-md hover:bg-blue-500 hover:text-white focus:outline-none sm:mr-2"
+          className="px-4 py-2 mb-1 text-xs font-bold text-white uppercase bg-black rounded shadow outline-none active:bg-pink-600 hover:shadow-md hover:bg-gray-700 hover:text-white focus:outline-none sm:mr-2"
           type="button"
           style={{ transition: 'all .15s ease' }}
           href="#mailgo"

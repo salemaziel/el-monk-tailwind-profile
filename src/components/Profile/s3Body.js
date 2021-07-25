@@ -174,7 +174,7 @@ const S3Body = () => (
 
 {/* Section 1 */}
 <section className="py-5 pb-20 bg-white">
-  <div className="relative max-w-6xl px-10 mx-auto">
+  <div className="relative max-w-6xl px-2 mx-auto md:px-6 lg:px-10">
     <div className="grid grid-cols-1 gap-10 mt-10 md:grid-cols-2 xl:grid-cols-2">
       {/* Member 1 */}
       <div className="relative rounded-lg p-0.5 overflow-hidden bg-transparent shadow-sm hover:border-gray-400 focus-within:ring-2 focus-within:ring-offset-2 focus-within:ring-indigo-500">
